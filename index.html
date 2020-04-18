@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>
+            Bouncing Ball 200434215
+        </title>
+
+        <link href="css/style.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <br>
+        <center>
+            <button id="btn" >Click me</button>
+            <p>Click the button to on or off the animation.</p>
+        </center>
+        
+        <div id="screen">
+            
+
+            <div id="ballmaindiv" >
+
+                <div id="ballsubdiv" >
+
+                    <div id="ball" >
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+            $("button").click(function(){
+                $("#ball").toggle();
+            });
+            });
+        </script>
+        
+    </body>
+
+</html>
